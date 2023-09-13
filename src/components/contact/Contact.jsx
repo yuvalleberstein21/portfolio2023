@@ -7,17 +7,14 @@ import myResumeImage from "../../assets/myResume.png";
 import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion";
 import { Link, Navigate } from 'react-router-dom';
+import HText from '../utils/HText';
+import Description from '../utils/Description';
 
 
 
 const Contact = () => {
 
     const form = useRef();
-
-
-
-
-
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -36,10 +33,10 @@ const Contact = () => {
     return (
         <section id='contactPage'>
             <div id='socials' className="clients">
-                <h1 className="contactPageTitle">My Socials</h1>
-                <p className="clientDesc">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquid ipsum voluptatum quas laudantium. Repudiandae et, iusto eius excepturi adipisci, soluta facilis sequi.
-                </p>
+                <HText text='My Socials'></HText>
+                <Description text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquid ipsum voluptatum quas laudantium. Repudiandae et, iusto eius excepturi adipisci, soluta facilis sequi.'>
+
+                </Description>
                 <div className="clientImgs">
                     <a href='https://github.com/yuvalleberstein21' className="clientImg"><img src={githubImage} alt="githubImage" className="clientImg" /></a>
                     <a href='https://www.linkedin.com/in/yuval-leberstein/' className="clientImg"><img src={linkdinImage} alt="linkdinImage" className="clientImg" /></a>
@@ -70,9 +67,6 @@ const Contact = () => {
             </div>
 
 
-
-
-
             <motion.div id="contact"
                 initial="hidden"
                 whileInView="visible"
@@ -83,7 +77,7 @@ const Contact = () => {
                     visible: { opacity: 1, x: 0 },
                 }}
             >
-                <h1 className="contactPageTitle">Contact Me</h1>
+                <HText text='Contact Me'></HText>
                 <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
 
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
