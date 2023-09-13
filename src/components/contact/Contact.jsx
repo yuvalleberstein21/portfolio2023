@@ -34,9 +34,9 @@ const Contact = () => {
         <section id='contactPage'>
             <div id='socials' className="clients">
                 <HText text='My Socials'></HText>
-                <Description text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquid ipsum voluptatum quas laudantium. Repudiandae et, iusto eius excepturi adipisci, soluta facilis sequi.'>
-
-                </Description>
+                <p className='clientDesc'>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquid ipsum voluptatum quas laudantium. Repudiandae et, iusto eius excepturi adipisci, soluta facilis sequi.
+                </p>
                 <div className="clientImgs">
                     <a href='https://github.com/yuvalleberstein21' className="clientImg"><img src={githubImage} alt="githubImage" className="clientImg" /></a>
                     <a href='https://www.linkedin.com/in/yuval-leberstein/' className="clientImg"><img src={linkdinImage} alt="linkdinImage" className="clientImg" /></a>

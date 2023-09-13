@@ -124,3 +124,10 @@
 .container .box .body .content div h3 {
   letter-spacing: 1px;
 }
+
+.textProject {
+  color: rgb(248, 207, 131);
+}
+.textProjectDesc {
+  font-size: 14px;
+}
