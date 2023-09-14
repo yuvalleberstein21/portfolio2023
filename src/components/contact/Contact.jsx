@@ -6,9 +6,8 @@ import resumeImage from "../../assets/resume1.png";
 import myResumeImage from "../../assets/myResume.png";
 import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion";
-import { Link, Navigate } from 'react-router-dom';
 import HText from '../utils/HText';
-import Description from '../utils/Description';
+
 
 
 

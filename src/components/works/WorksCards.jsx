@@ -6,7 +6,7 @@ import portfolio4 from "../../assets/portfolio.png";
 import portfolio5 from "../../assets/simless.png";
 import portfolio6 from "../../assets/shopping.png";
 import "./works.css";
-import { Link } from 'react-router-dom';
+
 
 const WorksCards = () => {
     return (

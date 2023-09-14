@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../assets/logo-portfolio-3.png';
 import contact from '../../assets/contact.png';
@@ -9,7 +9,6 @@ import menuIcon from '../../assets/menuIcon1.png'
 const Navbar = () => {
 
   const [showMenu, setShowMenu] = useState(false);
-
 
   return (
     <nav className="navbar">
