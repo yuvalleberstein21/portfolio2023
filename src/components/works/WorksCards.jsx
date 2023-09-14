@@ -1,7 +1,7 @@
 import React from 'react'
 import portfolio1 from "../../assets/vacations1.png";
 import portfolio2 from "../../assets/mobilenext.png";
-import portfolio3 from "../../assets/imdb.png";
+// import portfolio3 from "../../assets/imdb.png";
 import portfolio4 from "../../assets/portfolio.png";
 import portfolio5 from "../../assets/simless.png";
 import portfolio6 from "../../assets/shopping.png";
@@ -42,7 +42,7 @@ const WorksCards = () => {
                 </div>
             </div>
 
-            <div className="box">
+            {/* <div className="box">
                 <div className="body">
                     <div className="imgContainer">
                         <img src={portfolio3} alt="" />
@@ -56,7 +56,7 @@ const WorksCards = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="box">
                 <div className="body">
