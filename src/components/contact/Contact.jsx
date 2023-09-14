@@ -35,7 +35,7 @@ const Contact = () => {
             <div id='socials' className="clients">
                 <HText text='My Socials'></HText>
                 <p className='clientDesc'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquid ipsum voluptatum quas laudantium. Repudiandae et, iusto eius excepturi adipisci, soluta facilis sequi.
+                    Thank you for taking the time to explore my portfolio. If you're interested in learning more about my professional journey, connecting on LinkedIn, exploring my code repositories on GitHub, or reviewing my detailed CV, you're in the right place!
                 </p>
                 <div className="clientImgs">
                     <a href='https://github.com/yuvalleberstein21' className="clientImg"><img src={githubImage} alt="githubImage" className="clientImg" /></a>
